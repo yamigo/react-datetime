@@ -1,5 +1,8 @@
 Changelog
 =========
+## 2.9.1
+* Update swith format('YYYY.MM') on DaysView
+
 ## 2.9.0
 * Trigger callback method on view mode changes
 
