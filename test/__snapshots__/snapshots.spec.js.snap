@@ -112,7 +112,7 @@ exports[`dateFormat set to true 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -457,7 +457,7 @@ exports[`input input: set to false 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -809,7 +809,7 @@ exports[`input input: set to true 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -1161,7 +1161,7 @@ exports[`inputProps with className specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -1514,7 +1514,7 @@ exports[`inputProps with disabled specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -1867,7 +1867,7 @@ exports[`inputProps with name specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -2220,7 +2220,7 @@ exports[`inputProps with placeholder specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -2573,7 +2573,7 @@ exports[`inputProps with required specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -2925,7 +2925,7 @@ exports[`open set to false 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -3277,7 +3277,7 @@ exports[`open set to true 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -3629,7 +3629,7 @@ exports[`test className: set to arbitraty value 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -3961,7 +3961,7 @@ exports[`test defaultValue: set to arbitrary value 1`] = `
     onFocus={[Function]}
     onKeyDown={[Function]}
     type="text"
-    value="12/22/2016 12:36 AM" />
+    value="12/22/2016 8:36 AM" />
   <div
     className="rdtPicker">
     <div
@@ -3981,7 +3981,7 @@ exports[`test defaultValue: set to arbitrary value 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -4294,7 +4294,7 @@ exports[`test defaultValue: set to arbitrary value 1`] = `
               className="rdtTimeToggle"
               colSpan={7}
               onClick={[Function]}>
-              12:36 AM
+              8:36 AM
             </td>
           </tr>
         </tfoot>
@@ -4333,7 +4333,7 @@ exports[`test everything default: renders correctly 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -4685,7 +4685,7 @@ exports[`test isValidDate: only valid if after yesterday 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -5012,7 +5012,7 @@ exports[`test renderDay: specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -5364,7 +5364,7 @@ exports[`test renderMonth: specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -5716,7 +5716,7 @@ exports[`test renderYear: specified 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -6048,7 +6048,7 @@ exports[`test value: set to arbitrary value 1`] = `
     onFocus={[Function]}
     onKeyDown={[Function]}
     type="text"
-    value="12/22/2016 12:36 AM" />
+    value="12/22/2016 8:36 AM" />
   <div
     className="rdtPicker">
     <div
@@ -6068,7 +6068,7 @@ exports[`test value: set to arbitrary value 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -6381,7 +6381,7 @@ exports[`test value: set to arbitrary value 1`] = `
               className="rdtTimeToggle"
               colSpan={7}
               onClick={[Function]}>
-              12:36 AM
+              8:36 AM
             </td>
           </tr>
         </tfoot>
@@ -6420,7 +6420,7 @@ exports[`timeFormat set to false 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -6762,7 +6762,7 @@ exports[`timeFormat set to true 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"
@@ -7114,7 +7114,7 @@ exports[`viewMode set to days 1`] = `
               colSpan={5}
               data-value={11}
               onClick={[Function]}>
-              December 2016
+              2016.12
             </th>
             <th
               className="rdtNext"

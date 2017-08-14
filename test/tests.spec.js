@@ -19,7 +19,7 @@ describe('Datetime', () => {
 		utils.openDatepicker(component);
 
 		// Month and year
-		expect(component.find('.rdtSwitch').text()).toEqual('January 2000');
+		expect(component.find('.rdtSwitch').text()).toEqual('2000.01');
 
 		// Week days
 		const expectedWeekDays = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
@@ -165,13 +165,13 @@ describe('Datetime', () => {
 		const date = new Date(2000, 0, 15, 2, 2, 2, 2),
 			component = utils.createDatetime({ defaultValue: date });
 
-		expect(component.find('.rdtSwitch').text()).toEqual('January 2000');
+		expect(component.find('.rdtSwitch').text()).toEqual('2000.01');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('0');
 		utils.clickOnElement(component.find('.rdtNext span').at(0));
-		expect(component.find('.rdtSwitch').text()).toEqual('February 2000');
+		expect(component.find('.rdtSwitch').text()).toEqual('2000.02');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('1');
 		utils.clickOnElement(component.find('.rdtNext span').at(0));
-		expect(component.find('.rdtSwitch').text()).toEqual('March 2000');
+		expect(component.find('.rdtSwitch').text()).toEqual('2000.03');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('2');
 	});
 
@@ -179,13 +179,13 @@ describe('Datetime', () => {
 		const date = new Date(2000, 0, 15, 2, 2, 2, 2),
 			component = utils.createDatetime({ defaultValue: date });
 
-		expect(component.find('.rdtSwitch').text()).toEqual('January 2000');
+		expect(component.find('.rdtSwitch').text()).toEqual('2000.01');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('0');
 		utils.clickOnElement(component.find('.rdtPrev span').at(0));
-		expect(component.find('.rdtSwitch').text()).toEqual('December 1999');
+		expect(component.find('.rdtSwitch').text()).toEqual('1999.12');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('11');
 		utils.clickOnElement(component.find('.rdtPrev span').at(0));
-		expect(component.find('.rdtSwitch').text()).toEqual('November 1999');
+		expect(component.find('.rdtSwitch').text()).toEqual('1999.11');
 		expect(component.find('.rdtSwitch').getDOMNode().getAttribute('data-value')).toEqual('10');
 	});
 
